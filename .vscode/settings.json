@@ -1,6 +1,8 @@
 {
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,
-    "python.analysis.typeCheckingMode": "basic",
-    "python.linting.mypyEnabled": false
+    "python.analysis.typeCheckingMode": "off",
+    "python.linting.mypyEnabled": false,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.variableTypes": true,
 }
